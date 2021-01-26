@@ -10,7 +10,6 @@ stop_area:OCE:SA:87287243,"{'lat': '50.538127', 'lon': '3.219541'}",,admin:fr:59
 stop_area:OCE:SA:87644112,"{'lat': '47.219605', 'lon': '0.8811870000000001'}",,admin:fr:37085,Courçay,37310,37085
 stop_area:OCE:SA:87689737,"{'lat': '47.394142', 'lon': '0.671523'}",,admin:fr:37261,Tours,37000;37200,37261
 stop_area:OCE:SA:87699298,"{'lat': '0', 'lon': '0'}",,,,,
-stop_area:OCE:SA:00,"{'lat': '27.141247', 'lon': '-3.404382'}",.,,,,
 stop_area:OCE:SA:80153452,"{'lat': '50.767759', 'lon': '6.091215'}",Aachen/Aix la Chapelle,admin:osm:relation:62564,Aachen,,
 stop_area:OCE:SA:87313759,"{'lat': '49.685665', 'lon': '1.77418'}",Abancourt,admin:fr:60001,Abancourt,60220,60001
 stop_area:OCE:SA:87481614,"{'lat': '47.55523', 'lon': '-1.524196'}",Abbaretz,admin:fr:44001,Abbaretz,44170,44001
@@ -24,3 +23,4 @@ stop_area:OCE:SA:87381657,"{'lat': '48.969341', 'lon': '2.077786'}",Achères-Vil
 stop_area:OCE:SA:87342048,"{'lat': '50.131685', 'lon': '2.78014'}",Achiet,admin:fr:62005,Achiet-le-Grand,62121,62005
 stop_area:OCE:SA:87658856,"{'lat': '48.905629', 'lon': '7.208236'}",Adamswiller Lot. forêt.,admin:fr:67002,Adamswiller,67320,67002
 stop_area:OCE:SA:87658922,"{'lat': '48.903847', 'lon': '7.201171'}",Adamswiller-(Mairie).,admin:fr:67002,Adamswiller,67320,67002
+stop_area:OCE:SA:87001479,"{'lat': '49.003605', 'lon': '2.571026'}",Aérop-C-de-Gaulle-2-TGV,admin:fr:93073,Tremblay-en-France,93290,93073

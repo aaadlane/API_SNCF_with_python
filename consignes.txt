@@ -1,5 +1,3 @@
-Trouver l’ensemble des gares disponibles sur l’API et créer un fichier csv avec les codes de la gare, son nom et ses coordonnées latitude et longitude, ainsi que les informations administratives de la région quand elles sont disponibles
-
 Récupérer les informations sur un trajet entre Paris Gare de Lyon et Lyon Perrache
 
 Paris - Gare de Lyon (code de la gare : stop_area:OCE:SA:87686006) Lyon - Gare Lyon Perrache (code de la gare : stop_area:OCE:SA:87722025) Indice : utiliser la requête “journeys”
@@ -18,6 +16,3 @@ Bonus: Représenter toutes les gares atteignables avec un graphique type scatter
 
 
 code gare, nom, latitude, logitude, informations administratives
-
-
-"journeys": [{"sections": [{"stop_date_times": [{"stop_point" : {"name:'gare de lyon'}}]}]}]

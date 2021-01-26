@@ -1,0 +1,3122 @@
+{
+    "tickets": [],
+    "links": [
+        {
+            "href": "https://api.sncf.com/v1/coverage/sncf/journeys?allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&from=stop_area%3AOCE%3ASA%3A87686006&to=stop_area%3AOCE%3ASA%3A87722025&datetime_represents=departure&is_journey_schedules=True&datetime=20210125T115201&last_section_mode%5B%5D=walking&min_nb_journeys=5&min_nb_transfers=0&direct_path=none&first_section_mode%5B%5D=walking",
+            "type": "next",
+            "rel": "next",
+            "templated": false
+        },
+        {
+            "href": "https://api.sncf.com/v1/coverage/sncf/journeys?allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&from=stop_area%3AOCE%3ASA%3A87686006&to=stop_area%3AOCE%3ASA%3A87722025&datetime_represents=arrival&is_journey_schedules=True&datetime=20210125T140859&last_section_mode%5B%5D=walking&min_nb_journeys=5&min_nb_transfers=0&direct_path=none&first_section_mode%5B%5D=walking",
+            "type": "prev",
+            "rel": "prev",
+            "templated": false
+        },
+        {
+            "href": "https://api.sncf.com/v1/coverage/sncf/journeys?allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&from=stop_area%3AOCE%3ASA%3A87686006&to=stop_area%3AOCE%3ASA%3A87722025&datetime_represents=departure&is_journey_schedules=True&datetime=20210125T000000&last_section_mode%5B%5D=walking&min_nb_journeys=5&min_nb_transfers=0&direct_path=none&first_section_mode%5B%5D=walking",
+            "type": "first",
+            "rel": "first",
+            "templated": false
+        },
+        {
+            "href": "https://api.sncf.com/v1/coverage/sncf/journeys?allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&from=stop_area%3AOCE%3ASA%3A87686006&to=stop_area%3AOCE%3ASA%3A87722025&datetime_represents=arrival&is_journey_schedules=True&datetime=20210125T235959&last_section_mode%5B%5D=walking&min_nb_journeys=5&min_nb_transfers=0&direct_path=none&first_section_mode%5B%5D=walking",
+            "type": "last",
+            "rel": "last",
+            "templated": false
+        },
+        {
+            "href": "https://api.sncf.com/v1/coverage/sncf/stop_points/{stop_point.id}",
+            "type": "stop_point",
+            "rel": "stop_points",
+            "templated": true
+        },
+        {
+            "href": "https://api.sncf.com/v1/coverage/sncf/stop_areas/{stop_area.id}",
+            "type": "stop_area",
+            "rel": "stop_areas",
+            "templated": true
+        },
+        {
+            "href": "https://api.sncf.com/v1/coverage/sncf/vehicle_journeys/{vehicle_journey.id}",
+            "type": "vehicle_journey",
+            "rel": "vehicle_journeys",
+            "templated": true
+        },
+        {
+            "href": "https://api.sncf.com/v1/coverage/sncf/routes/{route.id}",
+            "type": "route",
+            "rel": "routes",
+            "templated": true
+        },
+        {
+            "href": "https://api.sncf.com/v1/coverage/sncf/commercial_modes/{commercial_mode.id}",
+            "type": "commercial_mode",
+            "rel": "commercial_modes",
+            "templated": true
+        },
+        {
+            "href": "https://api.sncf.com/v1/coverage/sncf/lines/{line.id}",
+            "type": "line",
+            "rel": "lines",
+            "templated": true
+        },
+        {
+            "href": "https://api.sncf.com/v1/coverage/sncf/physical_modes/{physical_mode.id}",
+            "type": "physical_mode",
+            "rel": "physical_modes",
+            "templated": true
+        },
+        {
+            "href": "https://api.sncf.com/v1/coverage/sncf/networks/{network.id}",
+            "type": "network",
+            "rel": "networks",
+            "templated": true
+        }
+    ],
+    "journeys": [
+        {
+            "status": "",
+            "distances": {
+                "taxi": 0,
+                "car": 0,
+                "walking": 0,
+                "bike": 0,
+                "ridesharing": 0
+            },
+            "links": [
+                {
+                    "href": "https://api.sncf.com/v1/coverage/sncf/journeys?from=stop_area%3AOCE%3ASA%3A87686006&direct_path=none&last_section_mode%5B%5D=walking&is_journey_schedules=True&datetime=20210125T115200&to=stop_area%3AOCE%3ASA%3A87722025&min_nb_journeys=5&min_nb_transfers=0&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&first_section_mode%5B%5D=walking",
+                    "type": "journeys",
+                    "rel": "same_journey_schedules",
+                    "templated": false
+                },
+                {
+                    "href": "https://api.sncf.com/v1/coverage/sncf/journeys?count=1&from=stop_area%3AOCE%3ASA%3A87686006&direct_path=none&last_section_mode%5B%5D=walking&is_journey_schedules=True&datetime=20210125T115200&to=stop_area%3AOCE%3ASA%3A87722025&min_nb_journeys=1&min_nb_transfers=0&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&first_section_mode%5B%5D=walking",
+                    "type": "journeys",
+                    "rel": "this_journey",
+                    "templated": false
+                }
+            ],
+            "tags": [
+                "walking",
+                "ecologic"
+            ],
+            "nb_transfers": 0,
+            "durations": {
+                "taxi": 0,
+                "walking": 0,
+                "car": 0,
+                "ridesharing": 0,
+                "bike": 0,
+                "total": 8220
+            },
+            "arrival_date_time": "20210125T140900",
+            "calendars": [
+                {
+                    "active_periods": [
+                        {
+                            "begin": "20210114",
+                            "end": "20210328"
+                        }
+                    ],
+                    "week_pattern": {
+                        "monday": true,
+                        "tuesday": true,
+                        "friday": true,
+                        "wednesday": true,
+                        "thursday": true,
+                        "sunday": true,
+                        "saturday": true
+                    }
+                }
+            ],
+            "departure_date_time": "20210125T115200",
+            "requested_date_time": "20210125T115200",
+            "fare": {
+                "found": false,
+                "total": {
+                    "value": "0.0"
+                },
+                "links": []
+            },
+            "co2_emission": {
+                "value": 1355.2332,
+                "unit": "gEC"
+            },
+            "type": "best",
+            "duration": 8220,
+            "sections": [
+                {
+                    "from": {
+                        "embedded_type": "stop_area",
+                        "stop_area": {
+                            "codes": [
+                                {
+                                    "type": "CR-CI-CH",
+                                    "value": "0087-686006-BV"
+                                },
+                                {
+                                    "type": "UIC8",
+                                    "value": "87686006"
+                                },
+                                {
+                                    "type": "external_code",
+                                    "value": "OCE87686006"
+                                }
+                            ],
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "id": "stop_area:OCE:SA:87686006"
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_area:OCE:SA:87686006"
+                    },
+                    "links": [],
+                    "arrival_date_time": "20210125T115200",
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87686006",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-686006-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87686006"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87686006"
+                                    }
+                                ],
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87686006"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                    },
+                    "departure_date_time": "20210125T115200",
+                    "duration": 0,
+                    "type": "crow_fly",
+                    "id": "cizEip2MmCTo4TPiS6hAnn_0",
+                    "mode": "walking"
+                },
+                {
+                    "from": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87686006",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-686006-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87686006"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87686006"
+                                    }
+                                ],
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87686006"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                    },
+                    "links": [
+                        {
+                            "type": "vehicle_journey",
+                            "id": "vehicle_journey:OCE:SN006613F17017_dst_1"
+                        },
+                        {
+                            "type": "line",
+                            "id": "line:OCE:138"
+                        },
+                        {
+                            "type": "route",
+                            "id": "route:OCE:138-TGVINOUI-87686006-87722025"
+                        },
+                        {
+                            "type": "commercial_mode",
+                            "id": "commercial_mode:INOUI"
+                        },
+                        {
+                            "type": "physical_mode",
+                            "id": "physical_mode:LongDistanceTrain"
+                        },
+                        {
+                            "type": "network",
+                            "id": "network:sncf"
+                        }
+                    ],
+                    "arrival_date_time": "20210125T140900",
+                    "additional_informations": [
+                        "regular"
+                    ],
+                    "co2_emission": {
+                        "value": 1355.2332,
+                        "unit": "gEC"
+                    },
+                    "display_informations": {
+                        "direction": "Lyon-Perrache (Lyon)",
+                        "code": "",
+                        "network": "SNCF",
+                        "links": [],
+                        "color": "000000",
+                        "name": "Paris <> Lyon <> Saint Etienne",
+                        "physical_mode": "Train grande vitesse",
+                        "headsign": "6613",
+                        "label": "Paris <> Lyon <> Saint Etienne",
+                        "equipments": [],
+                        "text_color": "FFFFFF",
+                        "trip_short_name": "6613",
+                        "commercial_mode": "TGV INOUI",
+                        "description": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87722025",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-722025-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87722025"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87722025"
+                                    }
+                                ],
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87722025"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                    },
+                    "base_arrival_date_time": "20210125T140900",
+                    "base_departure_date_time": "20210125T115200",
+                    "departure_date_time": "20210125T115200",
+                    "geojson": {
+                        "type": "LineString",
+                        "properties": [
+                            {
+                                "length": 398598
+                            }
+                        ],
+                        "coordinates": [
+                            [
+                                2.373462,
+                                48.844922
+                            ],
+                            [
+                                4.499388,
+                                46.765309
+                            ],
+                            [
+                                4.859435,
+                                45.760585
+                            ],
+                            [
+                                4.825941,
+                                45.748785
+                            ]
+                        ]
+                    },
+                    "duration": 8220,
+                    "type": "public_transport",
+                    "id": "section_4_0",
+                    "data_freshness": "base_schedule",
+                    "stop_date_times": [
+                        {
+                            "stop_point": {
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T115200",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T115200",
+                            "base_arrival_date_time": "20210125T115200",
+                            "base_departure_date_time": "20210125T115200"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Creusot - TGV (le)",
+                                "links": [],
+                                "coord": {
+                                    "lat": "46.765309",
+                                    "lon": "4.499388"
+                                },
+                                "label": "Creusot - TGV (le) (\u00c9cuisses)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87694109"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T131300",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T131600",
+                            "base_arrival_date_time": "20210125T131300",
+                            "base_departure_date_time": "20210125T131600"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Lyon-Part-Dieu",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.760585",
+                                    "lon": "4.859435"
+                                },
+                                "label": "Lyon-Part-Dieu (Lyon)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87723197"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T135600",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T140100",
+                            "base_arrival_date_time": "20210125T135600",
+                            "base_departure_date_time": "20210125T140100"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T140900",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T140900",
+                            "base_arrival_date_time": "20210125T140900",
+                            "base_departure_date_time": "20210125T140900"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87722025",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-722025-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87722025"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87722025"
+                                    }
+                                ],
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87722025"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                    },
+                    "links": [],
+                    "arrival_date_time": "20210125T140900",
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_area",
+                        "stop_area": {
+                            "codes": [
+                                {
+                                    "type": "CR-CI-CH",
+                                    "value": "0087-722025-BV"
+                                },
+                                {
+                                    "type": "UIC8",
+                                    "value": "87722025"
+                                },
+                                {
+                                    "type": "external_code",
+                                    "value": "OCE87722025"
+                                }
+                            ],
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "id": "stop_area:OCE:SA:87722025"
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_area:OCE:SA:87722025"
+                    },
+                    "departure_date_time": "20210125T140900",
+                    "duration": 0,
+                    "type": "crow_fly",
+                    "id": "FWv6TuRarCSPtHNpmwVRcF_0",
+                    "mode": "walking"
+                }
+            ]
+        },
+        {
+            "status": "",
+            "distances": {
+                "taxi": 0,
+                "car": 0,
+                "walking": 0,
+                "bike": 0,
+                "ridesharing": 0
+            },
+            "links": [
+                {
+                    "href": "https://api.sncf.com/v1/coverage/sncf/journeys?from=stop_area%3AOCE%3ASA%3A87686006&direct_path=none&last_section_mode%5B%5D=walking&is_journey_schedules=True&datetime=20210125T135200&to=stop_area%3AOCE%3ASA%3A87722025&min_nb_journeys=5&min_nb_transfers=0&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&first_section_mode%5B%5D=walking",
+                    "type": "journeys",
+                    "rel": "same_journey_schedules",
+                    "templated": false
+                },
+                {
+                    "href": "https://api.sncf.com/v1/coverage/sncf/journeys?count=1&from=stop_area%3AOCE%3ASA%3A87686006&direct_path=none&last_section_mode%5B%5D=walking&is_journey_schedules=True&datetime=20210125T135200&to=stop_area%3AOCE%3ASA%3A87722025&min_nb_journeys=1&min_nb_transfers=0&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&first_section_mode%5B%5D=walking",
+                    "type": "journeys",
+                    "rel": "this_journey",
+                    "templated": false
+                }
+            ],
+            "tags": [
+                "walking",
+                "ecologic"
+            ],
+            "nb_transfers": 0,
+            "durations": {
+                "taxi": 0,
+                "walking": 0,
+                "car": 0,
+                "ridesharing": 0,
+                "bike": 0,
+                "total": 8220
+            },
+            "arrival_date_time": "20210125T160900",
+            "calendars": [
+                {
+                    "exceptions": [
+                        {
+                            "type": "remove",
+                            "datetime": "20210216"
+                        },
+                        {
+                            "type": "remove",
+                            "datetime": "20210217"
+                        }
+                    ],
+                    "active_periods": [
+                        {
+                            "begin": "20210114",
+                            "end": "20210328"
+                        }
+                    ],
+                    "week_pattern": {
+                        "monday": true,
+                        "tuesday": true,
+                        "friday": true,
+                        "wednesday": true,
+                        "thursday": true,
+                        "sunday": true,
+                        "saturday": true
+                    }
+                }
+            ],
+            "departure_date_time": "20210125T135200",
+            "requested_date_time": "20210125T115200",
+            "fare": {
+                "found": false,
+                "total": {
+                    "value": "0.0"
+                },
+                "links": []
+            },
+            "co2_emission": {
+                "value": 1355.2332,
+                "unit": "gEC"
+            },
+            "type": "rapid",
+            "duration": 8220,
+            "sections": [
+                {
+                    "from": {
+                        "embedded_type": "stop_area",
+                        "stop_area": {
+                            "codes": [
+                                {
+                                    "type": "CR-CI-CH",
+                                    "value": "0087-686006-BV"
+                                },
+                                {
+                                    "type": "UIC8",
+                                    "value": "87686006"
+                                },
+                                {
+                                    "type": "external_code",
+                                    "value": "OCE87686006"
+                                }
+                            ],
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "id": "stop_area:OCE:SA:87686006"
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_area:OCE:SA:87686006"
+                    },
+                    "links": [],
+                    "arrival_date_time": "20210125T135200",
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87686006",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-686006-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87686006"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87686006"
+                                    }
+                                ],
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87686006"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                    },
+                    "departure_date_time": "20210125T135200",
+                    "duration": 0,
+                    "type": "crow_fly",
+                    "id": "er2Z4BuNQjHEuCpFoKohEf_0",
+                    "mode": "walking"
+                },
+                {
+                    "from": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87686006",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-686006-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87686006"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87686006"
+                                    }
+                                ],
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87686006"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                    },
+                    "links": [
+                        {
+                            "type": "vehicle_journey",
+                            "id": "vehicle_journey:OCE:SN006617F16016_dst_1"
+                        },
+                        {
+                            "type": "line",
+                            "id": "line:OCE:138"
+                        },
+                        {
+                            "type": "route",
+                            "id": "route:OCE:138-TGVINOUI-87686006-87722025"
+                        },
+                        {
+                            "type": "commercial_mode",
+                            "id": "commercial_mode:INOUI"
+                        },
+                        {
+                            "type": "physical_mode",
+                            "id": "physical_mode:LongDistanceTrain"
+                        },
+                        {
+                            "type": "network",
+                            "id": "network:sncf"
+                        }
+                    ],
+                    "arrival_date_time": "20210125T160900",
+                    "additional_informations": [
+                        "regular"
+                    ],
+                    "co2_emission": {
+                        "value": 1355.2332,
+                        "unit": "gEC"
+                    },
+                    "display_informations": {
+                        "direction": "Lyon-Perrache (Lyon)",
+                        "code": "",
+                        "network": "SNCF",
+                        "links": [],
+                        "color": "000000",
+                        "name": "Paris <> Lyon <> Saint Etienne",
+                        "physical_mode": "Train grande vitesse",
+                        "headsign": "6617",
+                        "label": "Paris <> Lyon <> Saint Etienne",
+                        "equipments": [],
+                        "text_color": "FFFFFF",
+                        "trip_short_name": "6617",
+                        "commercial_mode": "TGV INOUI",
+                        "description": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87722025",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-722025-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87722025"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87722025"
+                                    }
+                                ],
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87722025"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                    },
+                    "base_arrival_date_time": "20210125T160900",
+                    "base_departure_date_time": "20210125T135200",
+                    "departure_date_time": "20210125T135200",
+                    "geojson": {
+                        "type": "LineString",
+                        "properties": [
+                            {
+                                "length": 398598
+                            }
+                        ],
+                        "coordinates": [
+                            [
+                                2.373462,
+                                48.844922
+                            ],
+                            [
+                                4.499388,
+                                46.765309
+                            ],
+                            [
+                                4.859435,
+                                45.760585
+                            ],
+                            [
+                                4.825941,
+                                45.748785
+                            ]
+                        ]
+                    },
+                    "duration": 8220,
+                    "type": "public_transport",
+                    "id": "section_3_0",
+                    "data_freshness": "base_schedule",
+                    "stop_date_times": [
+                        {
+                            "stop_point": {
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T135200",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T135200",
+                            "base_arrival_date_time": "20210125T135200",
+                            "base_departure_date_time": "20210125T135200"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Creusot - TGV (le)",
+                                "links": [],
+                                "coord": {
+                                    "lat": "46.765309",
+                                    "lon": "4.499388"
+                                },
+                                "label": "Creusot - TGV (le) (\u00c9cuisses)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87694109"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T151300",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T151600",
+                            "base_arrival_date_time": "20210125T151300",
+                            "base_departure_date_time": "20210125T151600"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Lyon-Part-Dieu",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.760585",
+                                    "lon": "4.859435"
+                                },
+                                "label": "Lyon-Part-Dieu (Lyon)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87723197"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T155600",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T160100",
+                            "base_arrival_date_time": "20210125T155600",
+                            "base_departure_date_time": "20210125T160100"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T160900",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T160900",
+                            "base_arrival_date_time": "20210125T160900",
+                            "base_departure_date_time": "20210125T160900"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87722025",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-722025-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87722025"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87722025"
+                                    }
+                                ],
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87722025"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                    },
+                    "links": [],
+                    "arrival_date_time": "20210125T160900",
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_area",
+                        "stop_area": {
+                            "codes": [
+                                {
+                                    "type": "CR-CI-CH",
+                                    "value": "0087-722025-BV"
+                                },
+                                {
+                                    "type": "UIC8",
+                                    "value": "87722025"
+                                },
+                                {
+                                    "type": "external_code",
+                                    "value": "OCE87722025"
+                                }
+                            ],
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "id": "stop_area:OCE:SA:87722025"
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_area:OCE:SA:87722025"
+                    },
+                    "departure_date_time": "20210125T160900",
+                    "duration": 0,
+                    "type": "crow_fly",
+                    "id": "H9kYVwsaRt6ASqtwpB7JRa_0",
+                    "mode": "walking"
+                }
+            ]
+        },
+        {
+            "status": "",
+            "distances": {
+                "taxi": 0,
+                "car": 0,
+                "walking": 0,
+                "bike": 0,
+                "ridesharing": 0
+            },
+            "links": [
+                {
+                    "href": "https://api.sncf.com/v1/coverage/sncf/journeys?from=stop_area%3AOCE%3ASA%3A87686006&direct_path=none&last_section_mode%5B%5D=walking&is_journey_schedules=True&datetime=20210125T154600&to=stop_area%3AOCE%3ASA%3A87722025&min_nb_journeys=5&min_nb_transfers=0&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&first_section_mode%5B%5D=walking",
+                    "type": "journeys",
+                    "rel": "same_journey_schedules",
+                    "templated": false
+                },
+                {
+                    "href": "https://api.sncf.com/v1/coverage/sncf/journeys?count=1&from=stop_area%3AOCE%3ASA%3A87686006&direct_path=none&last_section_mode%5B%5D=walking&is_journey_schedules=True&datetime=20210125T154600&to=stop_area%3AOCE%3ASA%3A87722025&min_nb_journeys=1&min_nb_transfers=0&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&first_section_mode%5B%5D=walking",
+                    "type": "journeys",
+                    "rel": "this_journey",
+                    "templated": false
+                }
+            ],
+            "tags": [
+                "walking",
+                "ecologic"
+            ],
+            "nb_transfers": 0,
+            "durations": {
+                "taxi": 0,
+                "walking": 0,
+                "car": 0,
+                "ridesharing": 0,
+                "bike": 0,
+                "total": 8580
+            },
+            "arrival_date_time": "20210125T180900",
+            "calendars": [
+                {
+                    "active_periods": [
+                        {
+                            "begin": "20210114",
+                            "end": "20210326"
+                        }
+                    ],
+                    "week_pattern": {
+                        "monday": true,
+                        "tuesday": true,
+                        "friday": false,
+                        "wednesday": true,
+                        "thursday": true,
+                        "sunday": false,
+                        "saturday": false
+                    }
+                }
+            ],
+            "departure_date_time": "20210125T154600",
+            "requested_date_time": "20210125T115200",
+            "fare": {
+                "found": false,
+                "total": {
+                    "value": "0.0"
+                },
+                "links": []
+            },
+            "co2_emission": {
+                "value": 1358.844,
+                "unit": "gEC"
+            },
+            "type": "rapid",
+            "duration": 8580,
+            "sections": [
+                {
+                    "from": {
+                        "embedded_type": "stop_area",
+                        "stop_area": {
+                            "codes": [
+                                {
+                                    "type": "CR-CI-CH",
+                                    "value": "0087-686006-BV"
+                                },
+                                {
+                                    "type": "UIC8",
+                                    "value": "87686006"
+                                },
+                                {
+                                    "type": "external_code",
+                                    "value": "OCE87686006"
+                                }
+                            ],
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "id": "stop_area:OCE:SA:87686006"
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_area:OCE:SA:87686006"
+                    },
+                    "links": [],
+                    "arrival_date_time": "20210125T154600",
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87686006",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-686006-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87686006"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87686006"
+                                    }
+                                ],
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87686006"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                    },
+                    "departure_date_time": "20210125T154600",
+                    "duration": 0,
+                    "type": "crow_fly",
+                    "id": "VnmuPs3A9akxGvQfLqFpfT_0",
+                    "mode": "walking"
+                },
+                {
+                    "from": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87686006",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-686006-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87686006"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87686006"
+                                    }
+                                ],
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87686006"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                    },
+                    "links": [
+                        {
+                            "type": "vehicle_journey",
+                            "id": "vehicle_journey:OCE:SN006621F41041_dst_1"
+                        },
+                        {
+                            "type": "line",
+                            "id": "line:OCE:138"
+                        },
+                        {
+                            "type": "route",
+                            "id": "route:OCE:138-TGVINOUI-87686006-87722025"
+                        },
+                        {
+                            "type": "commercial_mode",
+                            "id": "commercial_mode:INOUI"
+                        },
+                        {
+                            "type": "physical_mode",
+                            "id": "physical_mode:LongDistanceTrain"
+                        },
+                        {
+                            "type": "network",
+                            "id": "network:sncf"
+                        }
+                    ],
+                    "arrival_date_time": "20210125T180900",
+                    "additional_informations": [
+                        "regular"
+                    ],
+                    "co2_emission": {
+                        "value": 1358.844,
+                        "unit": "gEC"
+                    },
+                    "display_informations": {
+                        "direction": "Lyon-Perrache (Lyon)",
+                        "code": "",
+                        "network": "SNCF",
+                        "links": [],
+                        "color": "000000",
+                        "name": "Paris <> Lyon <> Saint Etienne",
+                        "physical_mode": "Train grande vitesse",
+                        "headsign": "6621",
+                        "label": "Paris <> Lyon <> Saint Etienne",
+                        "equipments": [],
+                        "text_color": "FFFFFF",
+                        "trip_short_name": "6621",
+                        "commercial_mode": "TGV INOUI",
+                        "description": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87722025",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-722025-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87722025"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87722025"
+                                    }
+                                ],
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87722025"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                    },
+                    "base_arrival_date_time": "20210125T180900",
+                    "base_departure_date_time": "20210125T154600",
+                    "departure_date_time": "20210125T154600",
+                    "geojson": {
+                        "type": "LineString",
+                        "properties": [
+                            {
+                                "length": 399660
+                            }
+                        ],
+                        "coordinates": [
+                            [
+                                2.373462,
+                                48.844922
+                            ],
+                            [
+                                4.499388,
+                                46.765309
+                            ],
+                            [
+                                4.778948,
+                                46.282898
+                            ],
+                            [
+                                4.859435,
+                                45.760585
+                            ],
+                            [
+                                4.825941,
+                                45.748785
+                            ]
+                        ]
+                    },
+                    "duration": 8580,
+                    "type": "public_transport",
+                    "id": "section_1_0",
+                    "data_freshness": "base_schedule",
+                    "stop_date_times": [
+                        {
+                            "stop_point": {
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T154600",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T154600",
+                            "base_arrival_date_time": "20210125T154600",
+                            "base_departure_date_time": "20210125T154600"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Creusot - TGV (le)",
+                                "links": [],
+                                "coord": {
+                                    "lat": "46.765309",
+                                    "lon": "4.499388"
+                                },
+                                "label": "Creusot - TGV (le) (\u00c9cuisses)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87694109"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T170700",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T171000",
+                            "base_arrival_date_time": "20210125T170700",
+                            "base_departure_date_time": "20210125T171000"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "M\u00e2con-Loch\u00e9-TGV",
+                                "links": [],
+                                "coord": {
+                                    "lat": "46.282898",
+                                    "lon": "4.778948"
+                                },
+                                "label": "M\u00e2con-Loch\u00e9-TGV (M\u00e2con)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87725705"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T172800",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T173100",
+                            "base_arrival_date_time": "20210125T172800",
+                            "base_departure_date_time": "20210125T173100"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Lyon-Part-Dieu",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.760585",
+                                    "lon": "4.859435"
+                                },
+                                "label": "Lyon-Part-Dieu (Lyon)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87723197"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T175600",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T180100",
+                            "base_arrival_date_time": "20210125T175600",
+                            "base_departure_date_time": "20210125T180100"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T180900",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T180900",
+                            "base_arrival_date_time": "20210125T180900",
+                            "base_departure_date_time": "20210125T180900"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87722025",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-722025-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87722025"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87722025"
+                                    }
+                                ],
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87722025"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                    },
+                    "links": [],
+                    "arrival_date_time": "20210125T180900",
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_area",
+                        "stop_area": {
+                            "codes": [
+                                {
+                                    "type": "CR-CI-CH",
+                                    "value": "0087-722025-BV"
+                                },
+                                {
+                                    "type": "UIC8",
+                                    "value": "87722025"
+                                },
+                                {
+                                    "type": "external_code",
+                                    "value": "OCE87722025"
+                                }
+                            ],
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "id": "stop_area:OCE:SA:87722025"
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_area:OCE:SA:87722025"
+                    },
+                    "departure_date_time": "20210125T180900",
+                    "duration": 0,
+                    "type": "crow_fly",
+                    "id": "2L6UUnDbjF3o7MS5j8KihF_0",
+                    "mode": "walking"
+                }
+            ]
+        },
+        {
+            "status": "",
+            "distances": {
+                "taxi": 0,
+                "car": 0,
+                "walking": 0,
+                "bike": 0,
+                "ridesharing": 0
+            },
+            "links": [
+                {
+                    "href": "https://api.sncf.com/v1/coverage/sncf/journeys?from=stop_area%3AOCE%3ASA%3A87686006&direct_path=none&last_section_mode%5B%5D=walking&is_journey_schedules=True&datetime=20210125T170000&to=stop_area%3AOCE%3ASA%3A87722025&min_nb_journeys=5&min_nb_transfers=0&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&first_section_mode%5B%5D=walking",
+                    "type": "journeys",
+                    "rel": "same_journey_schedules",
+                    "templated": false
+                },
+                {
+                    "href": "https://api.sncf.com/v1/coverage/sncf/journeys?count=1&from=stop_area%3AOCE%3ASA%3A87686006&direct_path=none&last_section_mode%5B%5D=walking&is_journey_schedules=True&datetime=20210125T170000&to=stop_area%3AOCE%3ASA%3A87722025&min_nb_journeys=1&min_nb_transfers=0&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&first_section_mode%5B%5D=walking",
+                    "type": "journeys",
+                    "rel": "this_journey",
+                    "templated": false
+                }
+            ],
+            "tags": [
+                "walking",
+                "ecologic"
+            ],
+            "nb_transfers": 0,
+            "durations": {
+                "taxi": 0,
+                "walking": 0,
+                "car": 0,
+                "ridesharing": 0,
+                "bike": 0,
+                "total": 7740
+            },
+            "arrival_date_time": "20210125T190900",
+            "calendars": [
+                {
+                    "exceptions": [
+                        {
+                            "type": "add",
+                            "datetime": "20210118"
+                        },
+                        {
+                            "type": "add",
+                            "datetime": "20210125"
+                        }
+                    ],
+                    "active_periods": [
+                        {
+                            "begin": "20210115",
+                            "end": "20210208"
+                        },
+                        {
+                            "begin": "20210301",
+                            "end": "20210308"
+                        }
+                    ],
+                    "week_pattern": {
+                        "monday": false,
+                        "tuesday": false,
+                        "friday": true,
+                        "wednesday": false,
+                        "thursday": false,
+                        "sunday": true,
+                        "saturday": false
+                    }
+                }
+            ],
+            "departure_date_time": "20210125T170000",
+            "requested_date_time": "20210125T115200",
+            "fare": {
+                "found": false,
+                "total": {
+                    "value": "0.0"
+                },
+                "links": []
+            },
+            "co2_emission": {
+                "value": 1338.9744,
+                "unit": "gEC"
+            },
+            "type": "fastest",
+            "duration": 7740,
+            "sections": [
+                {
+                    "from": {
+                        "embedded_type": "stop_area",
+                        "stop_area": {
+                            "codes": [
+                                {
+                                    "type": "CR-CI-CH",
+                                    "value": "0087-686006-BV"
+                                },
+                                {
+                                    "type": "UIC8",
+                                    "value": "87686006"
+                                },
+                                {
+                                    "type": "external_code",
+                                    "value": "OCE87686006"
+                                }
+                            ],
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "id": "stop_area:OCE:SA:87686006"
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_area:OCE:SA:87686006"
+                    },
+                    "links": [],
+                    "arrival_date_time": "20210125T170000",
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87686006",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-686006-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87686006"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87686006"
+                                    }
+                                ],
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87686006"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                    },
+                    "departure_date_time": "20210125T170000",
+                    "duration": 0,
+                    "type": "crow_fly",
+                    "id": "AcJxJtFSTsVVawyLD48Hzb_0",
+                    "mode": "walking"
+                },
+                {
+                    "from": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87686006",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-686006-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87686006"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87686006"
+                                    }
+                                ],
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87686006"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                    },
+                    "links": [
+                        {
+                            "type": "vehicle_journey",
+                            "id": "vehicle_journey:OCE:SN006687F35035-11592_dst_1"
+                        },
+                        {
+                            "type": "line",
+                            "id": "line:OCE:138"
+                        },
+                        {
+                            "type": "route",
+                            "id": "route:OCE:138-TGVINOUI-87686006-87722025"
+                        },
+                        {
+                            "type": "commercial_mode",
+                            "id": "commercial_mode:INOUI"
+                        },
+                        {
+                            "type": "physical_mode",
+                            "id": "physical_mode:LongDistanceTrain"
+                        },
+                        {
+                            "type": "network",
+                            "id": "network:sncf"
+                        }
+                    ],
+                    "arrival_date_time": "20210125T190900",
+                    "additional_informations": [
+                        "regular"
+                    ],
+                    "co2_emission": {
+                        "value": 1338.9744,
+                        "unit": "gEC"
+                    },
+                    "display_informations": {
+                        "direction": "Lyon-Perrache (Lyon)",
+                        "code": "",
+                        "network": "SNCF",
+                        "links": [],
+                        "color": "000000",
+                        "name": "Paris <> Lyon <> Saint Etienne",
+                        "physical_mode": "Train grande vitesse",
+                        "headsign": "6687",
+                        "label": "Paris <> Lyon <> Saint Etienne",
+                        "equipments": [],
+                        "text_color": "FFFFFF",
+                        "trip_short_name": "6687",
+                        "commercial_mode": "TGV INOUI",
+                        "description": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87722025",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-722025-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87722025"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87722025"
+                                    }
+                                ],
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87722025"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                    },
+                    "base_arrival_date_time": "20210125T190900",
+                    "base_departure_date_time": "20210125T170000",
+                    "departure_date_time": "20210125T170000",
+                    "geojson": {
+                        "type": "LineString",
+                        "properties": [
+                            {
+                                "length": 393816
+                            }
+                        ],
+                        "coordinates": [
+                            [
+                                2.373462,
+                                48.844922
+                            ],
+                            [
+                                4.859435,
+                                45.760585
+                            ],
+                            [
+                                4.825941,
+                                45.748785
+                            ]
+                        ]
+                    },
+                    "duration": 7740,
+                    "type": "public_transport",
+                    "id": "section_2_0",
+                    "data_freshness": "base_schedule",
+                    "stop_date_times": [
+                        {
+                            "stop_point": {
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T170000",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T170000",
+                            "base_arrival_date_time": "20210125T170000",
+                            "base_departure_date_time": "20210125T170000"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Lyon-Part-Dieu",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.760585",
+                                    "lon": "4.859435"
+                                },
+                                "label": "Lyon-Part-Dieu (Lyon)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87723197"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T185600",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T190100",
+                            "base_arrival_date_time": "20210125T185600",
+                            "base_departure_date_time": "20210125T190100"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T190900",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T190900",
+                            "base_arrival_date_time": "20210125T190900",
+                            "base_departure_date_time": "20210125T190900"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87722025",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-722025-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87722025"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87722025"
+                                    }
+                                ],
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87722025"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                    },
+                    "links": [],
+                    "arrival_date_time": "20210125T190900",
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_area",
+                        "stop_area": {
+                            "codes": [
+                                {
+                                    "type": "CR-CI-CH",
+                                    "value": "0087-722025-BV"
+                                },
+                                {
+                                    "type": "UIC8",
+                                    "value": "87722025"
+                                },
+                                {
+                                    "type": "external_code",
+                                    "value": "OCE87722025"
+                                }
+                            ],
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "id": "stop_area:OCE:SA:87722025"
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_area:OCE:SA:87722025"
+                    },
+                    "departure_date_time": "20210125T190900",
+                    "duration": 0,
+                    "type": "crow_fly",
+                    "id": "gQEooEsnr8HJCUfPARiRBj_0",
+                    "mode": "walking"
+                }
+            ]
+        },
+        {
+            "status": "",
+            "distances": {
+                "taxi": 0,
+                "car": 0,
+                "walking": 0,
+                "bike": 0,
+                "ridesharing": 0
+            },
+            "links": [
+                {
+                    "href": "https://api.sncf.com/v1/coverage/sncf/journeys?from=stop_area%3AOCE%3ASA%3A87686006&direct_path=none&last_section_mode%5B%5D=walking&is_journey_schedules=True&datetime=20210125T175200&to=stop_area%3AOCE%3ASA%3A87722025&min_nb_journeys=5&min_nb_transfers=0&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&first_section_mode%5B%5D=walking",
+                    "type": "journeys",
+                    "rel": "same_journey_schedules",
+                    "templated": false
+                },
+                {
+                    "href": "https://api.sncf.com/v1/coverage/sncf/journeys?count=1&from=stop_area%3AOCE%3ASA%3A87686006&direct_path=none&last_section_mode%5B%5D=walking&is_journey_schedules=True&datetime=20210125T175200&to=stop_area%3AOCE%3ASA%3A87722025&min_nb_journeys=1&min_nb_transfers=0&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87722025&allowed_id%5B%5D=stop_point%3AOCE%3ASP%3ATGVINOUI-87686006&first_section_mode%5B%5D=walking",
+                    "type": "journeys",
+                    "rel": "this_journey",
+                    "templated": false
+                }
+            ],
+            "tags": [
+                "walking",
+                "ecologic"
+            ],
+            "nb_transfers": 0,
+            "durations": {
+                "taxi": 0,
+                "walking": 0,
+                "car": 0,
+                "ridesharing": 0,
+                "bike": 0,
+                "total": 8220
+            },
+            "arrival_date_time": "20210125T200900",
+            "calendars": [
+                {
+                    "active_periods": [
+                        {
+                            "begin": "20210114",
+                            "end": "20210328"
+                        }
+                    ],
+                    "week_pattern": {
+                        "monday": true,
+                        "tuesday": true,
+                        "friday": true,
+                        "wednesday": true,
+                        "thursday": true,
+                        "sunday": true,
+                        "saturday": true
+                    }
+                }
+            ],
+            "departure_date_time": "20210125T175200",
+            "requested_date_time": "20210125T115200",
+            "fare": {
+                "found": false,
+                "total": {
+                    "value": "0.0"
+                },
+                "links": []
+            },
+            "co2_emission": {
+                "value": 1355.2332,
+                "unit": "gEC"
+            },
+            "type": "rapid",
+            "duration": 8220,
+            "sections": [
+                {
+                    "from": {
+                        "embedded_type": "stop_area",
+                        "stop_area": {
+                            "codes": [
+                                {
+                                    "type": "CR-CI-CH",
+                                    "value": "0087-686006-BV"
+                                },
+                                {
+                                    "type": "UIC8",
+                                    "value": "87686006"
+                                },
+                                {
+                                    "type": "external_code",
+                                    "value": "OCE87686006"
+                                }
+                            ],
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "id": "stop_area:OCE:SA:87686006"
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_area:OCE:SA:87686006"
+                    },
+                    "links": [],
+                    "arrival_date_time": "20210125T175200",
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87686006",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-686006-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87686006"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87686006"
+                                    }
+                                ],
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87686006"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                    },
+                    "departure_date_time": "20210125T175200",
+                    "duration": 0,
+                    "type": "crow_fly",
+                    "id": "DxWLkkgoNDdeYF4kSkERWX_0",
+                    "mode": "walking"
+                },
+                {
+                    "from": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Paris-Gare-de-Lyon",
+                            "links": [],
+                            "coord": {
+                                "lat": "48.844922",
+                                "lon": "2.373462"
+                            },
+                            "label": "Paris-Gare-de-Lyon (Paris)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "75056",
+                                    "name": "Paris",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "48.8566969",
+                                        "lon": "2.3514616"
+                                    },
+                                    "label": "Paris (75000-75116)",
+                                    "id": "admin:fr:75056",
+                                    "zip_code": "75000;75116"
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87686006",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-686006-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87686006"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87686006"
+                                    }
+                                ],
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87686006"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Paris-Gare-de-Lyon (Paris)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                    },
+                    "links": [
+                        {
+                            "type": "vehicle_journey",
+                            "id": "vehicle_journey:OCE:SN006627F18018_dst_1"
+                        },
+                        {
+                            "type": "line",
+                            "id": "line:OCE:138"
+                        },
+                        {
+                            "type": "route",
+                            "id": "route:OCE:138-TGVINOUI-87686006-87722025"
+                        },
+                        {
+                            "type": "commercial_mode",
+                            "id": "commercial_mode:INOUI"
+                        },
+                        {
+                            "type": "physical_mode",
+                            "id": "physical_mode:LongDistanceTrain"
+                        },
+                        {
+                            "type": "network",
+                            "id": "network:sncf"
+                        }
+                    ],
+                    "arrival_date_time": "20210125T200900",
+                    "additional_informations": [
+                        "regular"
+                    ],
+                    "co2_emission": {
+                        "value": 1355.2332,
+                        "unit": "gEC"
+                    },
+                    "display_informations": {
+                        "direction": "Lyon-Perrache (Lyon)",
+                        "code": "",
+                        "network": "SNCF",
+                        "links": [],
+                        "color": "000000",
+                        "name": "Paris <> Lyon <> Saint Etienne",
+                        "physical_mode": "Train grande vitesse",
+                        "headsign": "6627",
+                        "label": "Paris <> Lyon <> Saint Etienne",
+                        "equipments": [],
+                        "text_color": "FFFFFF",
+                        "trip_short_name": "6627",
+                        "commercial_mode": "TGV INOUI",
+                        "description": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87722025",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-722025-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87722025"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87722025"
+                                    }
+                                ],
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87722025"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                    },
+                    "base_arrival_date_time": "20210125T200900",
+                    "base_departure_date_time": "20210125T175200",
+                    "departure_date_time": "20210125T175200",
+                    "geojson": {
+                        "type": "LineString",
+                        "properties": [
+                            {
+                                "length": 398598
+                            }
+                        ],
+                        "coordinates": [
+                            [
+                                2.373462,
+                                48.844922
+                            ],
+                            [
+                                4.499388,
+                                46.765309
+                            ],
+                            [
+                                4.859435,
+                                45.760585
+                            ],
+                            [
+                                4.825941,
+                                45.748785
+                            ]
+                        ]
+                    },
+                    "duration": 8220,
+                    "type": "public_transport",
+                    "id": "section_0_0",
+                    "data_freshness": "base_schedule",
+                    "stop_date_times": [
+                        {
+                            "stop_point": {
+                                "name": "Paris-Gare-de-Lyon",
+                                "links": [],
+                                "coord": {
+                                    "lat": "48.844922",
+                                    "lon": "2.373462"
+                                },
+                                "label": "Paris-Gare-de-Lyon (Paris)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87686006"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T175200",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T175200",
+                            "base_arrival_date_time": "20210125T175200",
+                            "base_departure_date_time": "20210125T175200"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Creusot - TGV (le)",
+                                "links": [],
+                                "coord": {
+                                    "lat": "46.765309",
+                                    "lon": "4.499388"
+                                },
+                                "label": "Creusot - TGV (le) (\u00c9cuisses)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87694109"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T191300",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T191600",
+                            "base_arrival_date_time": "20210125T191300",
+                            "base_departure_date_time": "20210125T191600"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Lyon-Part-Dieu",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.760585",
+                                    "lon": "4.859435"
+                                },
+                                "label": "Lyon-Part-Dieu (Lyon)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87723197"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T195600",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T200100",
+                            "base_arrival_date_time": "20210125T195600",
+                            "base_departure_date_time": "20210125T200100"
+                        },
+                        {
+                            "stop_point": {
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "equipments": [],
+                                "fare_zone": {
+                                    "name": "0"
+                                },
+                                "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                            },
+                            "links": [],
+                            "arrival_date_time": "20210125T200900",
+                            "additional_informations": [],
+                            "departure_date_time": "20210125T200900",
+                            "base_arrival_date_time": "20210125T200900",
+                            "base_departure_date_time": "20210125T200900"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "embedded_type": "stop_point",
+                        "stop_point": {
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "equipments": [],
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "fare_zone": {
+                                "name": "0"
+                            },
+                            "id": "stop_point:OCE:SP:TGVINOUI-87722025",
+                            "stop_area": {
+                                "codes": [
+                                    {
+                                        "type": "CR-CI-CH",
+                                        "value": "0087-722025-BV"
+                                    },
+                                    {
+                                        "type": "UIC8",
+                                        "value": "87722025"
+                                    },
+                                    {
+                                        "type": "external_code",
+                                        "value": "OCE87722025"
+                                    }
+                                ],
+                                "name": "Lyon-Perrache",
+                                "links": [],
+                                "coord": {
+                                    "lat": "45.748785",
+                                    "lon": "4.825941"
+                                },
+                                "label": "Lyon-Perrache (Lyon)",
+                                "timezone": "Europe/Paris",
+                                "id": "stop_area:OCE:SA:87722025"
+                            }
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_point:OCE:SP:TGVINOUI-87722025"
+                    },
+                    "links": [],
+                    "arrival_date_time": "20210125T200900",
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": ""
+                    },
+                    "to": {
+                        "embedded_type": "stop_area",
+                        "stop_area": {
+                            "codes": [
+                                {
+                                    "type": "CR-CI-CH",
+                                    "value": "0087-722025-BV"
+                                },
+                                {
+                                    "type": "UIC8",
+                                    "value": "87722025"
+                                },
+                                {
+                                    "type": "external_code",
+                                    "value": "OCE87722025"
+                                }
+                            ],
+                            "name": "Lyon-Perrache",
+                            "links": [],
+                            "coord": {
+                                "lat": "45.748785",
+                                "lon": "4.825941"
+                            },
+                            "label": "Lyon-Perrache (Lyon)",
+                            "administrative_regions": [
+                                {
+                                    "insee": "69123",
+                                    "name": "Lyon",
+                                    "level": 8,
+                                    "coord": {
+                                        "lat": "45.7578137",
+                                        "lon": "4.8320114"
+                                    },
+                                    "label": "Lyon",
+                                    "id": "admin:fr:69123",
+                                    "zip_code": ""
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "id": "stop_area:OCE:SA:87722025"
+                        },
+                        "quality": 0,
+                        "name": "Lyon-Perrache (Lyon)",
+                        "id": "stop_area:OCE:SA:87722025"
+                    },
+                    "departure_date_time": "20210125T200900",
+                    "duration": 0,
+                    "type": "crow_fly",
+                    "id": "tzVdUY3L4daocbRMDmfJaX_0",
+                    "mode": "walking"
+                }
+            ]
+        }
+    ],
+    "disruptions": [],
+    "notes": [],
+    "feed_publishers": [],
+    "context": {
+        "timezone": "Europe/Paris",
+        "current_datetime": "20210125T144253",
+        "car_direct_path": {
+            "co2_emission": {
+                "value": 97091.1386812212,
+                "unit": "gEC"
+            }
+        }
+    },
+    "exceptions": []
+}
