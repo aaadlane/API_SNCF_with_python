@@ -3,6 +3,7 @@ import csv
 import json
 import requests
 
+
 url_api = 'https://api.sncf.com/v1/coverage/sncf/stop_areas'
 
 token_auth = '2da277f8-8a43-49f3-9468-5f32fbbed6e7'
@@ -47,25 +48,26 @@ for loop_area in areas:
         print(f'Unexpected format {type(loop_area)}')
 
 pprint(list_gares)
-
 # Fin:  Pour récupérer les données de l'api
 
 
+
+
 # Pour créer le fichier csv
-# csv_columns = []
+csv_columns = []
 
-# for element in list_gares:
-#     if all(el in element for el in ('id', 'coord', 'name', 'admin_region_id', 'admin_region_name', 'admin_region_zip_code', 'admin_region_insee')):
-#         csv_columns = [i for i in element.keys()]
-#         break
+for element in list_gares:
+    if all(el in element for el in ('id', 'coord', 'name', 'admin_region_id', 'admin_region_name', 'admin_region_zip_code', 'admin_region_insee')):
+        csv_columns = [i for i in element.keys()]
+        break
 
-# try:
-#     # Create csv file
-#     with open('stop_areas.csv', 'w') as csvfile:
-#         writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
-#         writer.writeheader()
-#         for data in list_gares:
-#             writer.writerow(data)
-# except IOError:
-#     print("I/O error")
+try:
+    # Create csv file
+    with open('stop_areas.csv', 'w') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
+        writer.writeheader()
+        for data in list_gares:
+            writer.writerow(data)
+except IOError:
+    print("I/O error")
 # Fin: Pour créer le fichier csv

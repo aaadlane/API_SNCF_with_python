@@ -1,0 +1,4 @@
+01/27/2021 10:44:34 AM -  Starting new HTTPS connection (1): api.sncf.com:443
+01/27/2021 10:44:34 AM -  https://api.sncf.com:443 "GET /v1/coverage/sncf/stop_areas HTTP/1.1" 200 2500
+01/27/2021 10:44:34 AM -  Starting new HTTPS connection (1): api.sncf.com:443
+01/27/2021 10:44:34 AM -  https://api.sncf.com:443 "GET /v1/coverage/sncf/stop_areas HTTP/1.1" 200 2500
